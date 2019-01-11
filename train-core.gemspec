@@ -28,5 +28,5 @@ Gem::Specification.new do |spec|
 
   # chef-client < 12.4.1 require mixlib-shellout-2.0.1
   spec.add_dependency 'mixlib-shellout', '~> 2.0'
-  spec.add_dependency 'json', '>= 1.8', '< 3.0'
+  spec.add_dependency 'json_pure', '>= 1.8', '< 3.0'
 end
